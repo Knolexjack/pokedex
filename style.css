@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #5e5b5bad;
+    background-color: #fcfcfc;
     color: #333333;
 }
 
@@ -50,7 +50,7 @@ main .listagem-pokemon {
 }
 
 main .cartao-pokemon {
-    background-color: #d8e3ec;
+    background-color: #d8e3ec52;
     width: 200px;
     padding: 15px;
     display: flex;
@@ -62,7 +62,7 @@ main .cartao-pokemon {
 }
 
 main .cartao-pokemon:hover{
-    background-color: #96d9d6;
+    background-color: #83b8b593;
 }
 
 .modo-escuro .cartao-hover{
@@ -80,6 +80,14 @@ main .cartao-pokemon .informacoes span {
     padding: 5px;
     text-transform: uppercase;
     font-size: 15px;    
+}
+
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;  
 }
 
 main .cartao-pokemon .tipos {
